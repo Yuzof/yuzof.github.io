@@ -1,0 +1,10 @@
+{
+  "name": "Moscow Marathon",
+  "date": "27.09.2026",
+  "upcoming": true,
+  "place": "Moscow, Russia",
+  "format": "Marathon",
+  "distance" : 42.2,
+  "target" : "4:30:00",
+  "result" : "~4:30:00"
+}
