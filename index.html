@@ -1,126 +1,189 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-  <!-- Site made with Mobirise Website Builder v5.9.13, https://mobirise.com -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Mobirise v5.9.13, mobirise.com">
-  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-  <meta name="description" content="">
-  
-  <title>Roman Iuzofatov</title>
-  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="assets/dropdown/css/style.css">
-  <link rel="stylesheet" href="assets/socicon/css/styles.css">
-  <link rel="stylesheet" href="assets/theme/css/style.css">
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Bellota+Text:300,300i,400,400i,700,700i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellota+Text:300,300i,400,400i,700,700i&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=ZgMlzT"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=ZgMlzT" type="text/css">
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Роман Юзофатов — Инженер-исследователь</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏃</text></svg>">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section data-bs-version="5.1" class="menu menu1 cid-sFGMsvHDIa" once="menu" id="menu1-1">
-    <nav class="navbar navbar-dropdown navbar-expand-lg">
-        <div class="container">
-            <div class="navbar-brand">
-                <span class="navbar-logo">
-                    <a href="http://yuzof.github.io">
-                        <img src="assets/images/favicon-256-256.ico" alt="" style="height: 3rem;">
-                    </a>
-                </span>
-                <span class="mbr-text mbr-fonts-style display-2">Roman Iuzofatov</span>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="#top">Home</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="index.html#Research">Research</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="index.html#Research">Work</a></li>
-                    <li class="nav-item"><a class="nav-link link text-black text-primary display-7" href="index.html#Contact">Contact</a></li>
-                </ul>
-            </div>
-            <div class="icons-menu">
-                <a class="iconfont-wrapper" href="mailto:iuzofatov.rm@phystech.edu">
-                    <span class="p-2 mbr-iconfont socicon-mail socicon"></span>
-                </a>
-                <a class="iconfont-wrapper" href="https://twitter.com" target="_blank">
-                    <span class="p-2 mbr-iconfont socicon-twitter socicon"></span>
-                </a>
-                <a class="iconfont-wrapper" href="https://github.com/yuzof" target="_blank">
-                    <span class="p-2 mbr-iconfont socicon-github socicon"></span>
-                </a>
-                <a class="iconfont-wrapper" href="https://scholar.google.com/" target="_blank">
-                    <span class="p-2 mbr-iconfont socicon-googlescholar socicon"></span>
-                </a>
-            </div> 
+    <!-- Навигация -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">РЮ<span class="logo-accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#publications">Публикации</a></li>
+                <li><a href="#news">Новости</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+                <li><a href="blog.html">Блог</a></li>
+            </ul>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
-    </section>
 
-    <section data-bs-version="5.1" class="header1 cid-sFGMfPD7iT" id="header1-0">
-
-        <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
-
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="mbr-figure" style="width: 35%;">
-                    <img src="assets/images/Me-copy.jpg" alt="Mobirise" title="">
+    <!-- Герой-секция -->
+    <header class="hero" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%), url('source_files/fon.jpg') center/cover;">
+        <div class="container hero-container">
+            <div class="hero-text reveal">
+                <p class="hero-greeting">Привет, я</p>
+                <h1 class="hero-name">Роман Юзофатов</h1>
+                <p class="hero-role">Инженер-исследователь · Вычислительная физика · ML/NN</p>
+                <p class="hero-desc">Занимаюсь математическим моделированием и численными методами. Разрабатываю ML/NN решения для задач прикладной физики и геофизики.</p>
+                <div class="hero-actions">
+                    <a href="#contacts" class="btn btn-primary">Связаться со мной</a>
+                    <a href="#publications" class="btn btn-outline">Мои работы</a>
                 </div>
-                <div class="col-12 col-lg-7">
-                    <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Roman Iuzofatov</strong></h1>
-                    <div class="media-content">
-                        <div class="mbr-section-text mbr-white pb-3 ">
-                            <p class="mbr-text mbr-fonts-style display-5">Very cool guy, currently studying at <a href="https://www.mipt.ru/" class="text-primary">MIPT,  Moscow</a>.
-                                <br><br>
-                                Work covers very cool stuff.
-                                <br><br>
-                                Develop very cool open-source ecosystem.
-                                <br><br>
-                                <strong>Note</strong>: 
-                                Nice.
-                                <br><br>
-                            </p>
+            </div>
+            <div class="hero-photo reveal">
+                <div class="photo-frame">
+                    <img src="source_files/islands-retina-small.jpeg" alt="Фото Р" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title reveal">Обо мне</h2>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>Я — <strong>Роман Юзофатов</strong>, инженер-исследователь с пятилетним опытом работы. Окончил бакалавриат и магистратуру Московского физико-технического института, продолжаю аспирантуру в Санкт-Петербургском Политехе.</p>
+                    <p>Разрабатывал ML/NN решения для обработки задач прикладной физики.</p>
+                    <p>Работаю в Ndera Digital, где занимаюсь разработкой научного ПО для задач геофизики.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">лет опыта</span>
                         </div>
+                        <div class="stat">
+                            <span class="stat-number">0 ❤️</span>
+                            <span class="stat-label">h-index</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-skills reveal">
+                    <h3>Навыки</h3>
+                    <div class="skill">
+                        <span class="skill-name">Python</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">C++</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Математическое моделирование</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">ML / NN</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Английский язык (C1)</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 95%"></div></div>
+                    </div>
+                    <div class="skill">
+                        <span class="skill-name">Французский язык (A2)</span>
+                        <div class="skill-bar"><div class="skill-fill" style="width: 30%"></div></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="features3 cid-sFGSUpvomC" id="Research">
+    <!-- Наука: образование, публикации, конференции -->
+    <section id="publications" class="section section-alt">
         <div class="container">
-            <div class="mbr-section-head">
-                <h4 class="mbr-section-title mbr-fonts-style align-center mb-5 display-2"><strong>Research</strong></h4>
+            <h2 class="section-title reveal">Наука</h2>
+
+            <h3 class="table-title reveal">Образование</h3>
+            <div class="science-grid" id="education-grid">
+                <!-- Генерируется из science_results/education -->
+            </div>
+
+            <h3 class="table-title reveal">Публикации</h3>
+            <div class="science-grid" id="articles-grid">
+                <!-- Генерируется из science_results/articles -->
+            </div>
+
+            <h3 class="table-title reveal">Конференции</h3>
+            <div class="science-grid" id="conferences-grid">
+                <!-- Генерируется из science_results/conferences -->
             </div>
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="team1 cid-sFGNGNNW5A" id="Work">
+    <!-- Новости -->
+    <section id="news" class="section">
         <div class="container">
-            <div class="mbr-section-head">
-                <h4 class="mbr-section-title mbr-fonts-style align-center mb-5 display-2"><strong>Work</strong></h4>
+            <h2 class="section-title reveal">Новости</h2>
+            <p class="section-subtitle reveal">Мои забеги: результаты и планы</p>
+            <div class="news-grid" id="race-grid">
+                <!-- Карточки забегов генерируются из run_results/*.json -->
             </div>
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="contacts4 cid-sFGSUpvomC" id="Contact">
+    <!-- Контакты -->
+    <section id="contacts" class="section section-alt">
         <div class="container">
-            <div class="mbr-section-head">
-                <h4 class="mbr-section-title mbr-fonts-style align-center mb-5 display-2"><strong>Follow</strong></h4>
+            <h2 class="section-title reveal">Контакты</h2>
+            <p class="section-subtitle reveal">Буду рад общению! Свяжитесь со мной любым удобным способом.</p>
+            <div class="contacts-grid reveal">
+                <a href="mailto:iuzofatov.rm@phystech.edu" class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-info">
+                        <h3>Email</h3>
+                        <p>iuzofatov.rm@phystech.edu</p>
+                    </div>
+                </a>
+                <a href="https://github.com/Yuzof" target="_blank" class="contact-card">
+                    <div class="contact-icon">🐙</div>
+                    <div class="contact-info">
+                        <h3>GitHub</h3>
+                        <p>github.com/Yuzof</p>
+                    </div>
+                </a>
+                <a href="https://www.researchgate.net/profile/Roman-Iuzofatov" target="_blank" class="contact-card">
+                    <div class="contact-icon">📊</div>
+                    <div class="contact-info">
+                        <h3>ResearchGate</h3>
+                        <p>researchgate.net/profile/Roman-Iuzofatov</p>
+                    </div>
+                </a>
+                <a href="https://linkedin.com/in/roman-iuzofatov" target="_blank" class="contact-card">
+                    <div class="contact-icon">💼</div>
+                    <div class="contact-info">
+                        <h3>LinkedIn</h3>
+                        <p>linkedin.com/in/roman-iuzofatov</p>
+                    </div>
+                </a>
+                <a href="https://orcid.org/0009-0001-5817-8659" target="_blank" class="contact-card">
+                    <div class="contact-icon">🔬</div>
+                    <div class="contact-info">
+                        <h3>ORCID</h3>
+                        <p>orcid.org/0009-0001-5817-8659</p>
+                    </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <section data-bs-version="5.1" class="footer7 cid-sFGNGNNW5A" once="footers" id="footer">
+    <!-- Футер -->
+    <footer class="footer">
         <div class="container">
-            <div class="mbr-section-head">
-            <p class="mbr-section-title mbr-fonts-style align-center mb-5 display-8"><strong>© Copyright 2024 Roman Iuzofatov - All Rights Reserved</strong></p>
-            <p class="mbr-section-title mbr-fonts-style align-center mb-5 display-8">Template source: <a style="z-index:1" href="https://mobirise.com/offline-website-builder.html">Offline Website Builder</a></p>
-            </div>
+            <p>© 2026 Роман Юзофатов. Сделано с ❤️</p>
         </div>
-    </section>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

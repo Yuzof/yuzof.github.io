@@ -1,0 +1,10 @@
+{
+  "name": "ILOVERUNING 5k",
+  "date": "11.04.2026",
+  "upcoming": false,
+  "place": "Saint-Petersburg, Russia",
+  "format": "Local running event",
+  "distance" : 5,
+  "target" : "19:59",
+  "result" : "19:37"
+}

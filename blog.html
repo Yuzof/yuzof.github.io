@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блог — Роман Юзофатов</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">РЮ<span class="logo-accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html#about">Обо мне</a></li>
+                <li><a href="index.html#publications">Публикации</a></li>
+                <li><a href="index.html#news">Новости</a></li>
+                <li><a href="index.html#contacts">Контакты</a></li>
+                <li><a href="blog.html" class="active">Блог</a></li>
+            </ul>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Заголовок страницы -->
+    <header class="page-header">
+        <div class="container">
+            <h1 class="page-title reveal">Блог</h1>
+            <p class="page-subtitle reveal">Книги, события и заметки</p>
+        </div>
+    </header>
+
+    <!-- Посты блога -->
+    <section class="section">
+        <div class="container">
+            <div class="blog-list" id="blog-grid">
+                <!-- Посты генерируются из blog_results/*.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Роман Юзофатов. Сделано с ❤️</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

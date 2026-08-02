@@ -1,0 +1,10 @@
+{
+  "name": "Kazan Marathon",
+  "date": "03.05.2026",
+  "upcoming": false,
+  "place": "Kazan, Russia",
+  "format": "Marathon",
+  "distance" : 42.2,
+  "target" : 3.59,
+  "result" : 3.59
+}

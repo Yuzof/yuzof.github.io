@@ -1,0 +1,10 @@
+{
+  "name": "Pushkin - Petersburg",
+  "date": "07.09.2025",
+  "upcoming": false,
+  "place": "Saint-Petersburg, Russia",
+  "format": "Marathon",
+  "distance" : 42.2,
+  "target" : "finished",
+  "result" : 5.12
+}
