@@ -5,6 +5,6 @@
   "place": "Kazan, Russia",
   "format": "Marathon",
   "distance" : 42.2,
-  "target" : 3.59,
-  "result" : 3.59
+  "target" : "3:59:00",
+  "result" : "3:59:00"
 }
