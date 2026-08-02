@@ -1,11 +1,14 @@
 {
   "conferences": [
-    "3032be46-085d-4e88-ba31-436ccee1cadd.json"
+    "3032be46-085d-4e88-ba31-436ccee1cadd.json",
+    "ec140eda-9349-4fd1-8171-ae0b30b09279.json",
+    "f9ece5a6-058c-47a3-963f-3e9ad993937d.json"
   ],
   "articles":[
     "11a70633-57bc-43fa-acf7-737dd95fd27a.json"
   ],
   "education":[
-    "418679ed-de6d-4c9f-b7c9-00a78a993876.json"
+    "418679ed-de6d-4c9f-b7c9-00a78a993876.json",
+    "6d8cb220-8521-4f36-8af6-c2743d3da43b.json"
   ]
 }
